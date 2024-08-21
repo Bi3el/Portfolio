@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #18121E ;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+   width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kanit', sans-serif;
+}
+
+li:hover {
+    color: #ff9933;
+}
+
+#logo {
+    width: 90px;
+    height: auto;
+}
+
+.titulo {
+    color: #ff9933;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.coment1 {
+    background-image: url('https://thefader-res.cloudinary.com/private_images/w_760,c_limit,f_auto,q_auto:best/GettyImages-875432326_gnml9b/steph-curry-brita-commercial.jpg');
+}
+.coment2 {
+    background-image: url('https://cdn.vox-cdn.com/thumbor/RQ-6a9g-2lRtqt1U4MlrAiM2kgM=/0x678:5504x4668/1200x800/filters:focal(2209x1484:3089x2364)/cdn.vox-cdn.com/uploads/chorus_image/image/65630069/1179397452.jpg.0.jpg');
+    background-position: 50%;
+    background-size: 180%;
+}
+.coment3 {
+    background-image: url('https://nypost.com/wp-content/uploads/sites/2/2020/12/Kevin-Durant-4.jpg?quality=90&strip=all');
+    background-position-x: -20px;
+}
+
+.com {
+    width: 150px;
+    height: 150px;
+    margin: 30px 0px 10px 30px;
+    background-size: cover;
+    border-radius: 5px;
+    border: 2px solid #ff9933;
+}
+.comment {
+    border: 3px solid #ff9933;
+    border-radius: 5px;
+    display: flex;
+}
+.u-text {
+    font-family: 'Kanit', sans-serif;
+    color: #ffffff;
+    margin: 0px 0px 5px 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+.u-rate {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.text {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 30px 30px 30px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+}
+.comments-container {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+}
+.comments-content {
+    width: 80%;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+.new-comment-container {
+    display: none;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
